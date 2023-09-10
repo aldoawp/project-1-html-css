@@ -1,0 +1,36 @@
+ul {
+    list-style-type: none;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 24px;
+    margin-right: 20px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav-logo {
+    width: 200px;
+    margin: -20px;
+}
