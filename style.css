@@ -1,36 +1,145 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }  
+
 ul {
     list-style-type: none;
 }
 
-.nav-menu {
-    display: flex;
-    gap: 24px;
-    margin-right: 20px;
-}
-
 a {
-    color: black;
+    color: white;
     text-decoration: none;
     font-weight: bold;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 p {
     font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 20           px;
 }
 
 h1 {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 0px;
+    font-size: 60px;
+    font-weight: bolder;
+    color: white;
+}
+
+/* Here is the first section CSS */
+.first-section {
+    height: auto;
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: #1f2937;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 150px;
+    padding-top: 12px;
 }
 
 #nav-logo {
     width: 200px;
     margin: -20px;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 60px;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 160px;
+    /* flex-wrap: wrap; */
+}
+
+.content-hero {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 12px;
+    margin-right: 60px;
+}
+
+.content-hero button {
+    width: 220px;
+    height: 60px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+.placeholder-img {
+    width: 600px;
+    height: auto;
+}
+
+/* Here is the second section CSS */
+
+.second-section h1,
+.second-section p {
+    color: black;
+    text-align: center;
+}
+
+.second-section img {
+    width: 200px;
+    height: 200px;
+}
+
+.second-section {
+    margin-bottom: 100px;
+}
+
+.card-section {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.card {
+    width: 200px;
+    /* border-style: solid; */
+}
+
+/* Here is the third section CSS */
+
+.third-section {
+    background-color: #e5e7eb;
+    padding: 120px 200px 120px 200px;;
+}
+
+.quotes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.third-section p {
+    color: black;
+    font-size: 24px;
+    font-style: italic;
+    width: 80%;
+    margin: 12px;
+}
+
+.third-section .quotes-author {
+    text-align: right;
+    font-style: normal;
+    font-weight: bold;
 }
